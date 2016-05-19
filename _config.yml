@@ -1,12 +1,12 @@
 # Site settings
-name: FOOT PRINT
-description: "用欣赏的眼光发现美"
+name: 足迹
+description: "用欣赏的眼光发现美 @footprint"
 url: ""
 
 
 # Delete the lines you don't need
 # about 5 elements are recomended
-github_username:  dashingcode
+# github_username:  dashingcode
 # codepen_username: your_codepen_username_goes_here
 # facebook_username: your_facebook_username_goes_here
 # vk_username: your_vk_username_goes_here
@@ -39,6 +39,9 @@ avatar_img_path: "imgs/logo.png"
 front_img: yes
 front_img_path: "imgs/1.jpg"
 #front_img_path: "https://external.url/image.jpg"
+
+qrcode_img: yes
+qrcode_img_path: "imgs/qrcode.png"
 
 
 favicon_img: yes

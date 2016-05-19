@@ -1,7 +1,7 @@
 body {
     font-family: 'Open Sans',Helvetica,Arial,sans-serif;
     background-color: rgba(0, 0, 0, 0.9);
-    position: absolute; 
+    position: absolute;
     top: 0;
     bottom: 0;
     right: 0;
@@ -19,26 +19,29 @@ body {
     left: 0;
 }
 #avatar {
-    height: 180px;
+    height: 140px;
     border-radius: 100%;
-    border: 5px solid white;
+    border: 0px solid white;
     margin-bottom: 40px;
 }
 h1 {
     color: white;
     font-weight: bold;
     letter-spacing: 0.1em;
-    font-size: 4em;
+    font-size: 3em;
     font-family: 'Open Sans';
     margin: -10px 0;
 }
 h3 {
     color: white;
     padding-bottom: 20px;
-    font-weight: thin;
+    /*font-weight: thin;*/
+}
+p {
+  color: white;
 }
 .content {
-    padding-top: 100px;
+    padding-top: 60px;
     padding-bottom: 40px;
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;

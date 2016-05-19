@@ -11,7 +11,7 @@ permalink: /
         <meta name="description" content="{{ site.description }}">
         <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
         {% if site.favicon_img %}
-        <link rel="shortcut icon" href="{{ site.logo.png }}" />
+        <link rel="shortcut icon" href="{{ site.avatar_img_path }}" />
         {% endif %}
         <link rel="stylesheet" href="{{ "css/front.css" | prepend: site.baseurl }}">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin' rel='stylesheet' type='text/css'>
@@ -27,7 +27,9 @@ permalink: /
                 <img src="{{ site.avatar_img_path }}" id="avatar">
             {% endif %}
 
-            <h1>{{ site.name }}</h1>
+            <!-- <h1>{{ site.name }}</h1> -->
+            <p>Android版本下载</p>
+            <img src="{{ site.qrcode_img_path }}" alt="Android版本下载">
             <h3>{{ site.description }}</h3>
 
                 <ul>
